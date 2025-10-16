@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -16,13 +17,14 @@ a{
 	 left: 0;
 	 top: 0;
 	 width: 100%;
-	 padding: 25px 20px;
-	 background: slateblue;
-	 display: contents;
+	 padding: 25px 10%;
+	 background-color: slateblue;
+	 display: flex;
 	 justify-content: center;
 	 align-items: center;
 	 z-index: 100;
 }
+
 .navbar  .logo{
 	font-size: 30px;
 	font-weight: 700;
@@ -40,5 +42,8 @@ a{
 	transition: 0.5s;
 }
 .navbar ul li:hover a{
+	color: #7cf03d;
+}
+.home{
 	color: #7cf03d;
 }
