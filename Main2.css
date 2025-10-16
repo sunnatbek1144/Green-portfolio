@@ -18,8 +18,9 @@ a{
 	 top: 0;
 	 width: 100%;
 	 padding: 25px 10%;
+	 background-color: slateblue;
 	 display: flex;
-	 justify-content: center;
+	 justify-content: space-between;
 	 align-items: center;
 	 z-index: 100;
 }
@@ -74,7 +75,7 @@ a{
 	font-weight: 600;
 }
 .btn:hover{
-	/* background: transparent; */
+	background: transparent;
 	color: #7cf03d;
 	box-shadow: none;
 }
