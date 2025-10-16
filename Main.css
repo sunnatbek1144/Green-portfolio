@@ -38,5 +38,24 @@ body{
 }
 .navbar a:hover{
 	color: #0ef;
+	border-bottom:3px solid #0ef;
 	transition: 0.2s;
+}
+.home{
+	position: relative;
+	width: 100%;
+	justify-content: space-between;
+	height: 100vh;
+	background: url( ) no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	padding: 20px 30px;
+	transition: 3s;
+}
+.home-tex  h3{
+	font-size: 35px;
+	font-weight: 700;
+	
 }
