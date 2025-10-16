@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,7 +6,7 @@
 	font-family: "poppins", sans-serif;
 }
 body{
-	background-color: blue;
+	background-color: black;
 }
 .header{
 	position: fixed;
@@ -30,14 +31,13 @@ body{
 	margin-left: 25px;
 	transition: 3s;
 }
-.nav{
+.navbar a{
 	text-decoration: none;
 	margin: 0 10px;
 	flex-wrap: nowrap;
 	color: #fff;
 }
 .navbar a:hover{
-	font-size: 200px;
 	color: #0ef;
 	border-bottom:3px solid #0ef;
 	transition: 0.2s;
@@ -55,8 +55,19 @@ body{
 	padding: 20px 30px;
 	transition: 3s;
 }
+.home-tex {
+	max-width: 600px;
+}
 .home-tex  h3{
 	font-size: 35px;
 	font-weight: 700;
-	
+} 
+.home-tex h1{
+	font-size: 60px;
+	font-weight: 700;
+	margin: -3px 0;
+}
+.home-tex p{
+	font-size: 20px;
+
 }
