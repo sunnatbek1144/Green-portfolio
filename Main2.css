@@ -78,3 +78,14 @@ a{
 	color: #7cf03d;
 	box-shadow: none;
 }
+.logos{
+	margin-left: 20px;
+
+}
+.logos a{
+	display: inline-flex;
+	padding: 10px;
+	border: 2px solid #7cf03d;
+	border-radius: 50%;
+	font-size: 20px;
+}
