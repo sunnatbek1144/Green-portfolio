@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+body{
+	background: #1f242d;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.navbar{
+	 position: fixed;
+	 left: 0;
+	 top: 0;
+	 width: 100%;
+	 padding: 25px 20px;
+	 background: slateblue;
+	 display: contents;
+	 justify-content: center;
+	 align-items: center;
+	 z-index: 100;
+}
+.navbar  .logo{
+	font-size: 30px;
+	font-weight: 700;
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	list-style: none;
+	margin-left: 35px;
+}
