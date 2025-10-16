@@ -5,10 +5,38 @@
 	font-family: "poppins", sans-serif;
 }
 body{
-	color: antiquewhite;
+	background-color: blue;
 }
 .header{
 	position: fixed;
 	margin-top: 0;
 	margin-left: 0;
+	width: 100%;
+	padding: 20px 10px;
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	position: relative;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+.navbar{
+	display: inline-block;
+	font-size: 25px;
+	margin-left: 25px;
+	transition: 3s;
+}
+.navbar a{
+	text-decoration: none;
+	margin: 0 10px;
+	flex-wrap: nowrap;
+	color: #fff;
+}
+.navbar a:hover{
+	color: #0ef;
+	transition: 0.2s;
 }
