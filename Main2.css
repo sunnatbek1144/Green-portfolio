@@ -50,6 +50,7 @@ a{
 	height: 100vh;
 	padding: 60px 9%;
 	color: #fff;
+	width: 60%;
 }
 .home-text h1{
 	font-size: 55px;
@@ -82,8 +83,9 @@ a{
 	color: #7cf03d;
 	box-shadow: none;
 }
-.logos{
+/* .logos  {
 	margin-left: 20px;
+
 
 }
 .logos a{
@@ -92,4 +94,4 @@ a{
 	border: 2px solid #7cf03d;
 	border-radius: 50%;
 	font-size: 20px;
-}
+} */
