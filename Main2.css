@@ -57,7 +57,7 @@ a{
 }
 .home-text h2{
 	font-size: 32px;
-	margin-top: -10px ;
+	margin-top: 5px ;
 }
 .home-text p{
 	font-size: 16px;
@@ -83,15 +83,43 @@ a{
 	color: #7cf03d;
 	box-shadow: none;
 }
-/* .logos  {
+.logos  {
 	margin-left: 20px;
 
 
 }
 .logos a{
 	display: inline-flex;
-	padding: 10px;
+	padding: 7px;
 	border: 2px solid #7cf03d;
 	border-radius: 50%;
 	font-size: 20px;
-} */
+	color: #7cf03d;
+	margin: 0 7px;
+	transition: 3s;
+}
+.logos a :hover{
+	background-color: #7cf03d;
+	color: #1f242d;
+	box-shadow: 0 0 10px #7cf03d;
+}
+.fa-brands{
+	width: 20px;
+	height: 20px;
+	color: #7cf03d;
+}
+
+.fa-linkedin-in:hover{
+	color: #fff;
+}
+.fa-github:hover{
+	color: gray;
+
+}
+.fa-instagram:hover{
+	border-radius: 20px; 
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #405dee 90%);
+}
+.fa-telegram:hover{
+	color: #2AABEE;
+}
