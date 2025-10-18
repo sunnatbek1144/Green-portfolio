@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sunnatbek's Personal Portfolio</title>
-	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 	<link rel="stylesheet" href="./Main2.css">
 </head>
 
@@ -14,7 +15,7 @@
 	<nav class="navbar">
 		<a href="#" class="logo">Portfolio.</a>
 		<ul>
-			<li><a class="active" href="#">Home</a></li>
+			<li><a class="active" href="Home">Home</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Portfolio</a></li>
 			<li><a href="#">Service</a></li>
@@ -22,30 +23,35 @@
 		</ul>
 	</nav>
 
-	<section class="home">
+	<section class="home" id="home">
+
+		<div class="hom-img">
+			<div class="img-box">
+				<div class="img-item">
+					<img src="./rasm-glavniy.jpg" alt="rasm">
+				</div>
+			</div>
+		</div>
+
 		<div class="home-text">
 			<h1>Sunnatbek Isroilov</h1>
-			<h2>I'm a Frontend Developer</h2>
+			<h2>I'm a <span style="color: #7cf03d;">Frontend Developer</span></h2>
 			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo alias magnam animi blanditiis repudiandae, amet
 				veniam deserunt necessitatibus commodi. Perferendis quia aut similique enim molestias delectus dignissimos, sit
 				labore laborum voluptas fuga. Labore vitae itaque placeat fugiat voluptatum id in ea aut sed nulla deleniti vel
 				aspernatur, dolor molestiae necessitatibus.</p>
+
 			<div class="btn1">
 				<a href="#" class="btn">Learn more</a>
+
 				<div class="logos">
 					<a href="#"><i class="fa-brands fa-linkedin-in"></i> </a>
-					<a href="#"><i class="fa-brands fa-github box"></i> </a>
-					<a href="#"><i class="fa-brands fa-instagram box"></i> </a>
-					<a href="#"><i class="fa-brands fa-telegram box"></i></a>
+					<a href="#"><i class="fa-brands fa-github"></i> </a>
+					<a href="#"><i class="fa-brands fa-instagram"></i> </a>
+					<a href="#"><i class="fa-brands fa-telegram"></i></a>
 				</div>
 			</div>
-			<div class="hom-img">
-				<div class="img-box">
-					<div class="img-item">
-						<img src="./rasm-glavniy.jpg" alt="rasm">
-					</div>
-				</div>
-			</div>
+		</div>
 	</section>
 </body>
 
