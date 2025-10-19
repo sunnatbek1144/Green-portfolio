@@ -21,6 +21,7 @@ a{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: #2c3951;
 }
 
 .navbar  .logo{
@@ -161,10 +162,11 @@ a{
 
 .about-text h2{
     color: #7cf03d;
-    margin: 10px 500px;
+    margin: 10px;
     width: 100px;
     height: 50px;
-    font-size: 60px;
+    font-size: 50px;
+    display: flex;
 }
 .about-text h3{
     font-size: 30px;
@@ -189,10 +191,11 @@ a{
     border: 3px solid #7cf03d;
 }
 .skills{
-    margin-left: 630px;
     color: #7cf03d;
     font-size: 60px;
+    margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 630px;
 }
 .skills-img{
     justify-content: center;
@@ -200,14 +203,12 @@ a{
 .skills-container .skills-img img {
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 0 0 30px #7cf03d;
-    margin-left:400px ;
-    width: 400px;
-    height: 400px;
+    box-shadow: 0 0 30px 10px #7cf03d;
+    margin-left:450px ;
+    width: 500px;
+    height: 500px;
 }
-.r{
-    justify-content: center;
-}
+
 .skill-logos{
     display: flex;
     justify-content: center;
@@ -227,4 +228,19 @@ a{
     color: #7cf03d;
     background-color: #1f242d;
     box-shadow: 0 0 20px 10px #7cf03d;
+}
+.contact{
+    display: flex; 
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #7cf03d;
+    box-shadow: 0 0 10px #7cf03d;
+}
+.contact:hover{
+    color: #179e30;
+    box-shadow: 0 0 10px #2c3951;
+}
+.subtitle{
+    justify-content: center;
 }
