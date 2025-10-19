@@ -39,16 +39,15 @@ a{
     font-weight: 500;
     transition: 0.5s;
 }
-.navbar ul li a:active{
+.navbar ul li a.active{
     color: #7cf03d; 
 }
-.navbar ul li a{
-        color: #7cf03d; 
+.navbar ul li a:hover{
+    color: #7cf03d;
 }
 .navbar ul li a:focus{
-    border-bottom: 3px  solid #7cf03d;
+    border-bottom: 2px groove #7cf03d;
     color: #7cf03d; 
-    transition: 0.3s;
 }
 .home{
     display: flex;
@@ -92,7 +91,7 @@ a{
 .btn:hover{
     background: transparent;
     color: #7cf03d;
-    box-shadow: none;
+    box-shadow: 0 0 10px;
 }
 .logos{
     margin-left: 20px;
@@ -125,8 +124,7 @@ a{
     height: 300px;
     border: 2px solid #7cf03d;
     border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
     position: relative;
     display: flex;
     justify-content: center;
@@ -140,7 +138,7 @@ a{
     overflow: hidden;
     position: relative;
     background: #1f242d; 
-		box-shadow: 0 0 10px #7cf03d;
+	box-shadow: 0 0 15px #7cf03d;
 }
 
 .img-item img {
@@ -148,4 +146,5 @@ a{
     height: 100%;
     object-fit: cover;
     display: block;
+    border-bottom: 50%;
 }
