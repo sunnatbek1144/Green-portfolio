@@ -39,9 +39,16 @@ a{
     font-weight: 500;
     transition: 0.5s;
 }
-.navbar ul li:hover a,
-.navbar ul li a.active{
+.navbar ul li a:active{
     color: #7cf03d; 
+}
+.navbar ul li a{
+        color: #7cf03d; 
+}
+.navbar ul li a:focus{
+    border-bottom: 3px  solid #7cf03d;
+    color: #7cf03d; 
+    transition: 0.3s;
 }
 .home{
     display: flex;
