@@ -148,3 +148,83 @@ a{
     display: block;
     border-bottom: 50%;
 }
+.container-about{
+    border: 3px solid  #7cf03d;
+    box-shadow: 5px 5px 15px #7cf03d;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+.about-text{
+    padding: 20px 15px;
+    max-width: 1800px;
+}
+
+.about-text h2{
+    color: #7cf03d;
+    margin: 10px 500px;
+    width: 100px;
+    height: 50px;
+    font-size: 60px;
+}
+.about-text h3{
+    font-size: 30px;
+}
+.about-text p {
+    font-size: 20px;
+}
+.img-about{
+    margin: 10px;
+    border-radius: 20px;
+}
+.img-about2{
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px ;
+    margin: 10px 450px;
+    box-shadow: 0 0 20px #7cf03d;
+}
+.skills-container{
+    border: 3px solid #7cf03d;
+}
+.skills{
+    margin-left: 630px;
+    color: #7cf03d;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.skills-img{
+    justify-content: center;
+}
+.skills-container .skills-img img {
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #7cf03d;
+    margin-left:400px ;
+    width: 400px;
+    height: 400px;
+}
+.r{
+    justify-content: center;
+}
+.skill-logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.skill-logos .skl{
+    color: #1f242d;
+    background-color: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 20px; 
+    padding: 10px 8px;
+    margin: 30px;
+    font-size: 30px;
+    padding: 20px;
+}
+.skill-logos .skl:hover{
+    color: #7cf03d;
+    background-color: #1f242d;
+    box-shadow: 0 0 20px 10px #7cf03d;
+}
